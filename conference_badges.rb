@@ -10,4 +10,8 @@ def batch_badge_creator(array)
   list
 end
 
-def assign_rooms
+def assign_rooms(array)
+  list_assignment = []
+  array.each do |name|
+    list_assignment.push("Hello #{name}! You'll be assigned to room #{")
+  
