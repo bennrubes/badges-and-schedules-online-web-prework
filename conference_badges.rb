@@ -16,4 +16,10 @@ def assign_rooms(array)
     list_assignment.push("Hello #{name}! You'll be assigned to room #{name.index}")
   end
 end
-  
+
+def printer
+  puts batch_badge_creator
+  puts assign_rooms
+end
+
+printer
