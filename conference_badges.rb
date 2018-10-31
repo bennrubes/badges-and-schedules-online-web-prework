@@ -15,6 +15,7 @@ def assign_rooms(array)
   array.each do |name|
     list_assignment.push("Hello #{name}! You'll be assigned to room ")
   end
+  list_assignment
 end
 
 def printer
